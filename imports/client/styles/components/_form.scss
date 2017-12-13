@@ -1,0 +1,10 @@
+// lecture 44
+.form{
+  display: flex;
+}
+
+.form__input{
+  border: 1px solid #e8e8e8;
+  flex-grow: 1; // value 0 not adjust at all, 1 take the space
+  padding: 0 1.3rem 0 1.3rem;
+}
